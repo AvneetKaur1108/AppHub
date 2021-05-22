@@ -1,0 +1,28 @@
+﻿body {
+        padding-top: 0px;
+}
+
+.card{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.card-img-top{
+    height: 12vw;object-fit: scale-down;
+}
+
+
+.carousel{
+    padding: 20px 0px 20px 0px;
+}
+
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
+}
