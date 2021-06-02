@@ -85,7 +85,7 @@
            <div class="card">
               <img class="card-img-top" src="/Content/Images/whatsapp.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Online Courses</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="https://twitter.com/?lang=en" class="btn btn-primary">Go to the Site</a>
               </div>

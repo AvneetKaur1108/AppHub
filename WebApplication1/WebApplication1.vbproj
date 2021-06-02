@@ -227,19 +227,67 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="booking.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\1mglogo.png" />
+    <Content Include="Content\Images\alison logo.png" />
+    <Content Include="Content\Images\apollologo.png" />
+    <Content Include="Content\Images\bg.jpg" />
+    <Content Include="Content\Images\bOOKING %281%29.png" />
+    <Content Include="Content\Images\BOOKING2.png" />
+    <Content Include="Content\Images\bookinglogo.png" />
+    <Content Include="Content\Images\Bookings.png" />
+    <Content Include="Content\Images\bookmedlogo.png" />
+    <Content Include="Content\Images\buydruglogo.png" />
+    <Content Include="Content\Images\contactform.jpg" />
+    <Content Include="Content\Images\coursera logo.png" />
+    <Content Include="Content\Images\duolingo logo.png" />
+    <Content Include="Content\Images\EDUCATION %281%29.png" />
+    <Content Include="Content\Images\EDUCATION %282%29.png" />
+    <Content Include="Content\Images\eDUCATION %285%29.png" />
+    <Content Include="Content\Images\edx logo.png" />
+    <Content Include="Content\Images\expedialogo.png" />
+    <Content Include="Content\Images\futurelearn logo.png" />
+    <Content Include="Content\Images\goibibologo.png" />
+    <Content Include="Content\Images\hotelcomlogo.png" />
+    <Content Include="Content\Images\hotelscombined .png" />
+    <Content Include="Content\Images\htmldog logo.png" />
+    <Content Include="Content\Images\khan logo.png" />
+    <Content Include="Content\Images\mail.png" />
+    <Content Include="Content\Images\makemylogo.png" />
+    <Content Include="Content\Images\mchemistlogo.png" />
+    <Content Include="Content\Images\MEDICINE %281%29.png" />
+    <Content Include="Content\Images\MEDICINE %282%29.png" />
+    <Content Include="Content\Images\MEDICINE.png" />
+    <Content Include="Content\Images\medpluslogo.png" />
+    <Content Include="Content\Images\mygovlogo.png" />
+    <Content Include="Content\Images\netmedslogo.png" />
+    <Content Include="Content\Images\openebooks logo.png" />
+    <Content Include="Content\Images\practologo.png" />
+    <Content Include="Content\Images\savemymedlogo.png" />
+    <Content Include="Content\Images\smblogo.png" />
+    <Content Include="Content\Images\sporcle logo.png" />
+    <Content Include="Content\Images\trivago .png" />
+    <Content Include="Content\Images\udacity logo.png" />
+    <Content Include="Content\Images\udemy logo.png" />
     <Content Include="Content\Images\whatsapp.jpg" />
+    <Content Include="Content\Images\wikipedia logo.png" />
+    <Content Include="Content\Images\yatralogo.png" />
+    <Content Include="Content\Images\yodawylogo.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Account\Web.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
+    <Content Include="Education.aspx" />
+    <Content Include="emailSample.sln" />
+    <Content Include="Medical.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -510,11 +558,11 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="App_Start\Startup.Auth.vb" />
-    <Compile Include="Contact.aspx.designer.vb">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="booking.aspx.designer.vb">
+      <DependentUpon>booking.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.vb">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="booking.aspx.vb">
+      <DependentUpon>booking.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
@@ -524,8 +572,22 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Education.aspx.designer.vb">
+      <DependentUpon>Education.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Education.aspx.vb">
+      <DependentUpon>Education.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Medical.aspx.designer.vb">
+      <DependentUpon>Medical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Medical.aspx.vb">
+      <DependentUpon>Medical.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Models\IdentityModels.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

@@ -26,3 +26,13 @@
 	right: 0;
 	padding: 15px;
 }
+
+.col-md-3 {
+    padding: 10px !important;
+}
+
+.card-control{
+    padding:10px;
+}
+
+
